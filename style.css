@@ -1,0 +1,117 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(45deg, #9890e3, #b1f4cf);
+    text-align: center;
+}
+
+h1 {
+    margin-top: 200px;
+    text-align: center;
+    color: rgb(136, 255, 0);
+    text-shadow: black 3px 3px 3px;
+    margin-bottom: 100px;
+}
+
+.Xblock {
+    display: flex;
+    width: 100%;
+}
+
+.block0 {
+    background: linear-gradient(45deg, rgb(255, 0, 238), rgb(0, 179, 255));
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s ease, width 1s linear 1.5s;
+    margin: 40px;
+}
+
+.block1 {
+    background: linear-gradient(45deg, rgb(255, 0, 0), rgb(204, 255, 0));
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s ease, width 1s linear 1.5s;
+    margin: 40px;
+}
+
+.block2 {
+    background: linear-gradient(45deg, rgb(0, 255, 30), rgb(47, 0, 255));
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s ease, width 1s linear 1.5s;
+    margin: 40px;
+}
+
+.block3 {
+    background: linear-gradient(45deg, rgb(255, 0, 0), rgb(255, 255, 255));
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s ease, width 1s linear 1.5s;
+    margin: 40px;
+}
+
+.block4 {
+    background: linear-gradient(45deg, rgb(0, 255, 42), rgb(255, 0, 225));
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s ease, width 1s linear 1.5s;
+    margin: 40px;
+}
+
+.block5 {
+    background: linear-gradient(45deg, rgb(0, 255, 30), rgb(174, 0, 255));
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s ease, width 1s linear 1.5s;
+    margin: 40px;
+}
+
+.block6 {
+    background: linear-gradient(45deg, rgb(0, 204, 255), rgb(255, 0, 0));
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s ease, width 1s linear 1.5s;
+    margin: 40px;
+}
+
+.block7 {
+    background: linear-gradient(45deg, rgb(0, 255, 13), rgb(255, 255, 255));
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s ease, width 1s linear 1.5s;
+    margin: 40px;
+}
+
+.block8 {
+    background: linear-gradient(45deg, rgb(55, 255, 0), rgb(234, 255, 0));
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s ease, width 1s linear 1.5s;
+    margin: 40px;
+}
+
+.block9 {
+    background: linear-gradient(45deg, rgb(238, 255, 0), rgb(0, 179, 255));
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s ease, width 1s linear 1.5s;
+    margin: 40px;
+}
+
+.block:hover {
+    transform: rotate(720deg);
+    width: 100px;
+}
